@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tech2 etc</title>
+
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
+
+    <link rel="stylesheet" href="prrojectsir.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--  navigation--> 
+     <nav>
+        <img  src="imagetecheduca.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            <img id="menu-btn" src="line.png" alt="">
+        </div>
+     </nav>
+     <!-- Home -->
+    <!-- Home -->
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="blogimage1.jpg" alt="">
+                <h3>Learn Web Development in The Easiest Way</h3>
+                <p>Web development is one of the most in-demand and rewarding skills you can learn today. Whether you're looking to start a new career, build your own website, or simply understand how the internet works behind the scenes, learning web development can open up countless opportunities. The good news is that web development doesn't have to be difficult or overwhelming. With the right approach, tools, and mindset, anyone can learn it—even if you have no prior experience with coding.
+                <br><br>This guide will show you the easiest and most effective way to get started with web development, from the very basics to the essential technologies and tools you’ll need to succeed.
+
+First, it's important to understand what web development is. At its core, web development is the process of building and maintaining websites. It includes everything from designing the layout and structure of a webpage to writing the code that makes it function and interact with users. Web development is generally divided into two main categories: front-end development and back-end development. Front-end development involves everything the user sees and interacts with on the website—the layout, fonts, buttons, images, and animations. This part is built using HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript. Back-end development, on the other hand, deals with the server, database, and application logic. It powers the functionality behind the scenes—like user authentication, data storage, and fetching dynamic. <br> <br>To begin learning web development the easy way, start with HTML, the building block of web pages. HTML is not a programming language—it's a markup language that structures your content. Think of it like the skeleton of your website. You’ll use it to define elements like headings, paragraphs, links, images, and lists. HTML is fairly simple to learn because it's made up of readable tags, such as for a heading or  for a link. You can practice HTML by creating basic webpages in a free code editor like VS Code and opening them in your browser to see how your code. <br><br>Once you're comfortable with HTML, the next step is CSS, which is used to style your HTML content. While HTML tells the browser what to show, CSS tells it how to show it—such as what color to make the text, how large an image should be, or where to place elements on the screen. CSS allows you to control layout, colors, spacing, fonts, and responsiveness. For beginners, the best way to learn CSS is by experimenting with changing styles and using platforms like CodePen, where you can see real-time changes. You’ll also want to get familiar with concepts like Flexbox and Grid, which are modern CSS layout systems that make it easy to design responsive and attractive web pages.
+                </p>
+                <a href="#">Read next ?</a>
+               
+            </div>
+        </div>
+    </section>
+        
+
+          <footer> 
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>   
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. we only send promo offers,</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address" name="" id="">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @2021 All eights reserved | This template is made by Mahietc</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+
+
+            
+        </footer>
+        <script>
+            $('#menu-btn').click(function(){
+                $(' nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $(' nav .navigation ul').removeClass('active')
+            });
+
+            
+        </script>
+</body>
+</html>
